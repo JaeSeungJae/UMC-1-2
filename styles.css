@@ -1,0 +1,76 @@
+body {
+    background-color: aliceblue;
+    
+}
+
+#background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#inputback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 50px;
+    width: 50%;
+    border-style: double;
+    padding-left: 15px;
+}
+
+p {
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: skyblue;
+}
+
+#buttonContainer, #buttonContainer2 {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px; /* 좌우 간격을 조정합니다. */
+}
+
+button {
+    width: 40px; /* 버튼의 전체 너비를 조정합니다. */
+    height: 29px;
+    margin-bottom: 10px; /* 버튼 사이의 간격을 조정합니다. */
+    background-color: skyblue;
+    border: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* 각 태스크 아이템 사이의 마진 */
+}
+
+.task p {
+    margin-right: 10px; /* 텍스트와 버튼 사이의 공간 */
+}
+
+hr {
+    width: 80%;
+    background-color: aliceblue;
+}

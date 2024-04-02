@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mission 2</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="background">
+            <h1>UMC Study Plan</h1>
+        </div>
+        <hr>
+        <div id="inputback">
+            <input id="inputValue" onkeyup="if(window.event.keyCode==13){test()}" placeholder="스터디 계획을 작성해보세요!" type="text">
+        </div>
+        <div id="container">
+            <div class="task-container">
+                <p>해야 할 일</p>
+                <div id="buttonContainer"></div>
+            </div>
+            <div class="task-container">
+                <p>해낸 일</p>
+                <div id="buttonContainer2"></div>
+            </div>
+        </div>
+        <script src="index.js">
+        </script>
+    </body>
+</html>
